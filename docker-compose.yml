@@ -7,6 +7,6 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - APP_MESSAGE:"Hola mundo desde prod"
+      - APP_MESSAGE=Hola mundo desde prod
     restart: always
   
